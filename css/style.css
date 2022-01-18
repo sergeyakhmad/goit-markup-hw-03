@@ -79,7 +79,6 @@ body {
 
 /* Logo */
 .logo {
-  /* color: var(--primary-text-color); */
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -206,6 +205,10 @@ body {
 
 /* Особенности */
 
+.feature {
+  padding-bottom: 47px;
+}
+
 .feature-list {
   display: flex;
 }
@@ -232,6 +235,10 @@ body {
 }
 
 /* Чем мы занимаемся */
+
+.service {
+  padding-top: 47px;
+}
 
 .service-list {
   display: flex;
@@ -273,16 +280,18 @@ body {
   text-align: center;
 }
 
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
 }
 
 .team-text {
-  margin-bottom: 30px;
-
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -296,6 +305,10 @@ body {
   background-color: var(--hero-bg-color);
 }
 
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
 .address {
   margin-top: 20px;
 
@@ -306,7 +319,7 @@ body {
   margin-bottom: 9px;
 }
 
-.footer .link {
+.address .link {
   color: var(--primary-white-color);
   line-height: 1.71;
 }
